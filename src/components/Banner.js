@@ -43,13 +43,13 @@ export const Banner = () => {
             <section className="banner" id="home">
                 <Container>
                     <Row className="align-items-center">
-                        <Col xs={12} md={6} xl={7}>
+                        <Col xs={12} md={6} xl={6}>
                             <span className="tagline"> Welcome to my Portfolio </span>
                             <h1>{`Hi I'm Prateek Takthar`}<span className="wrap"> {text}</span></h1>
                             <p> minus repellendus esse quibusdam saepe molestiae unde autem facilis odio deserunt! Magnam cum laudantium quo exercitationem asperiores sint a, et voluptas commodi error placeat, modi expedita eligendi, eum non.</p>
                             <button onClick={() => console.log("hello from banner button")}>Let's Connect<ArrowRightCircle size={25}></ArrowRightCircle></button>
                         </Col>
-                        <Col xs={12} md={6} xl={7}>
+                        <Col xs={12} md={6} xl={6}>
                             <img src={headerImg} alt="Header Img" />
                         </Col>
                     </Row>
